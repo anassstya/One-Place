@@ -1,12 +1,14 @@
-# React + Vite
+# One Place
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Веб-сайт представляет собой интернет-магазин кухонной утвари. На главной странице отображается ассортимент товаров, таких как миски, стаканы, тарелки и сковородки, а также различные цветовые варианты.
 
-Currently, two official plugins are available:
+Компонент Design детально отображает товар и при наведении на подсказки будет появляться текст с описанием функциональности товара. При изменении цвета должны отображаться разные модели в разных оттенках.
+Компонент Collections отображает карточки товаров. По умолчанию хранится исходное состояния, так же есть возможность выбора цветов. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Для разработки этого компонента и всего сайта используются следующие технологии:
+- React
+- JavaScript, используемый для написания логики компонента.
+- CSS, используемый для оформления компонентов, включая позиционирование элементов, цвета и анимации.
+- HTML, используемый для структуры компонента.
+- useState Hook: React Hook, используемый для управления состоянием компонента
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

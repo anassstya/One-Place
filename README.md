@@ -12,3 +12,6 @@
 - HTML, используемый для структуры компонента.
 - useState Hook: React Hook, используемый для управления состоянием компонента
 
+![Uploading Screenshot 2025-04-12 at 10.34.40.png…]()
+![Uploading Screenshot 2025-04-12 at 10.34.42.png…]()
+![Uploading Screenshot 2025-04-12 at 10.34.45.png…]()
